@@ -1,6 +1,6 @@
 return {
 
-    RemoveItem = 'crowbar',
+    RemoveItem = 'weapon_crowbar',
 
     RewardItem = 'dashcam',
 }
