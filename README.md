@@ -12,4 +12,3 @@ Drag and drop into your server for a more realistic way of removing dashcams fro
 
 - QB-Core
 - ProgressBar
-- Ox_lib
