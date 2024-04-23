@@ -1,6 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-local HasItem = QBCore.Functions.HasItem(Config.Item)
+local HasItem = QBCore.Functions.HasItem(Config.RemoveItem)
 local playerPed = PlayerPedId()
 local vehicle = GetVehiclePedIsIn(playerPed, false)
 
