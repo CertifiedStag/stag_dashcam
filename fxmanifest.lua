@@ -9,14 +9,13 @@ description 'Easy Removal of Dashcams'
 version '1.0'
 
 shared_scripts {
-    '@ox_lib/init.lua',
+    'config.lua',
 }
 
 client_scripts {
-    'client.lua',
+    'cl_dashcams.lua',
 }
 
 server_scripts {
-    'sv_config.lua',
-    'server.lua',
+    'sv_dashcams.lua',
 }
