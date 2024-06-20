@@ -29,7 +29,11 @@ AddEventHandler('stag_dashcams:takeCam', function()
 end
 )
 
-RegisterCommand('takecam', function ()
-    TriggerEvent('stag_dashcams:takeCam', source)
-    end, false
-    )
+RegisterCommand('takecam', function()
+    if not IsPedSittingInAnyVehicle(PlayerPedId()) then return
+        QBCore.Functions.Notify('Not in a vehicle', 'error', 5000)
+    else
+    TriggerEvent('stag_dashcams:takeCam')
+    end
+end, false)
+    
