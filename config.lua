@@ -19,6 +19,6 @@ Config = {
 
     destroyItem = 'weapon_hammer',
 
-    -- Amount and type of item to give the player on successful destruction
+    -- Amount of item to give the player on successful destruction
     MSamount = 5
 }
